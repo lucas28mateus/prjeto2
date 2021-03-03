@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family:'Poppins', sans-serif
+}
+
+.header-container {
+    width: 100%vh;
+    padding: 50px 87px;
+
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.options {
+   align-items: center;
+   display: flex;
+  
+}
+
+.linki {
+   color: #4F5665;
+   padding-left: 25px;
+   padding-right: 25px;
+   font-size: 16px;
+   text-decoration: none;
+}
+
+.singn-button {
+    display: flex;
+
+}
+
+#sign-button {
+    width: 83px;
+    height: 39px;
+    background:#fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+#signUp-button {
+    width: 100px;
+    height: 39px;
+    color: #F53855;
+    background: #fff;
+    border:rgb(0, 0, 0.5);
+    box-shadow: 0 0 3px rgb(0, 0, 0.2);
+    font-size: 17px;
+    font-weight: normal;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.information {
+    flex-direction: column;
+    padding: 20px 80px;
+    width: 690px;
+    height: 282px;
+    
+    align-items: center;
+    justify-content: center;
+    
+    left: 745.76px;
+    top: 179.11px;
+
+}
+
+.information strong {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.information p {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.information button {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    margin-top: 35px;
+    border-radius: 10px; 
+    color:#fff ;
+    background:#F53855;
+    border:rgb(0, 0, 0.8);
+    box-shadow: 0 0 2px rgba(0, 0, 0.2);
+}
+
+
+
